@@ -12,7 +12,7 @@ driver.get(url) # Url Alınıyor
 trid_input = WebDriverWait(driver, 10).until(
     EC.visibility_of_element_located((By.ID, 'tridField')) # Tc No Girilecek Yeri Belirleniyor
 )
-trid_input.send_keys(classes.web.tc# Tc Kimliği Giriliyor
+trid_input.send_keys(classes.web.tc)# Tc Kimliği Giriliyor
 time.sleep(5) # 5 Saniye Bekleniyor
 egp_input = WebDriverWait(driver, 10).until(
     EC.visibility_of_element_located((By.ID, 'egpField')) #E-Devlet şifresinin girelecek Yeri Belirleniyor
