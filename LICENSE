@@ -1,9 +1,16 @@
-MIT License
+-GNU General Public License (GPL) v3.0
 
-Copyright (c) 2024 KayJss
+Copyright (C) 2024 KayJss
+Free Software Foundation (FSF)
 
-İzin verilir, ücretsiz olarak, bu yazılım ve ilişkili belgeler dosyalarının (bu "Yazılım") kopyalarını elde etme ve bunları kullanma hakkı, kişisel, ticari veya başka bir amaçla, verilmiştir.
+This license allows you to use, copy, modify, and distribute the software freely.
 
-Yazılım, herhangi bir garanti olmaksızın "olduğu gibi" sağlanmaktadır, açık veya zımni, bu yazılımın ticarete elverişliliği, belirli bir amaca uygunluğu veya ihlal etmeme garantisi dahil ancak bunlarla sınırlı olmamak üzere, herhangi bir türden hiçbir garanti verilmez. 
+1. **Freedom**: You have the freedom to run the program, for any purpose; to study how the program works, and change it to make it do what you wish.
 
-Hiçbir koşulda, yazarlar veya telif hakkı sahipleri, bu yazılımın veya kullanımının sonucunda doğan herhangi bir zarardan, doğrudan veya dolaylı olarak, sorumlu tutulamaz.
+2. **Modifications**: You must distribute the modified version of the software along with the source code.
+
+3. **Same License**: Any modified software must be distributed under the same license.
+
+4. **No Warranty**: This software is provided "as is", without any warranty.
+
+For the full text of this license, please visit [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
