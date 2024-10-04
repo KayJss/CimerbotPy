@@ -20,7 +20,7 @@ Projenin çalıştırılması için aşağıdaki adımları izleyin:
 
 1. **Depoyu Klonlayın**:
    ```bash
-   git clone https://github.com/kullaniciadi/cimerbotpy.git
+   git clone https://github.com/KayJss/cimerbotpy.git
    cd cimerrbot
    pip install -r requirements.txt
    python main.py
