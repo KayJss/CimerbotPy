@@ -35,11 +35,6 @@ Projenin çalıştırılması için aşağıdaki adımları izleyin:
 
 3. **Otomatik Şikayet** özelliği kullanıma sunulduğunda, bu özelliği kullanarak şikayetlerinizi hızlı bir şekilde oluşturabilirsiniz.
 
-## Güvenlik İpuçları
-
-- **Kimlik Bilgilerinizi Güvende Tutun**: Kimlik bilgilerinizi paylaşmayın ve sadece güvenilir kaynaklardan gelen yazılımları kullanın.
-- **Güçlü Şifreler Kullanın**: E-devlet şifreniz için güçlü ve karmaşık bir şifre kullanarak hesabınızı daha güvenli hale getirin.
-
 ## Geliştirme Planları
 
 - **Otomatik Şikayet Özelliği**: Kullanıcıların Cimer üzerinden otomatik şikayet oluşturabilmesi için gerekli geliştirmeler yapılacaktır.
@@ -57,4 +52,4 @@ Katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
 
 ## Lisans
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
+Bu proje GNU General Public License Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
