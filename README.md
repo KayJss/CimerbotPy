@@ -1,6 +1,6 @@
-## CimerbotPy V2.3
 
-## Gereksinimler
+
+## CimerbotPy V2.3 Gereksinimler
 
 - Python 3.x
 - `requirements.txt` dosyasındaki gerekli kütüphanelerin yüklenmesi
