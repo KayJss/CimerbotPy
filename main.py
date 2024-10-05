@@ -78,6 +78,9 @@ try:
 
 
             # E-posta bilgilerini gir
+            
+            messagebox.showwarning("Uyarı", "Seçim Kutularını Örneğin Başvuru Tipi ve Kullanıcı Sözleşmesini Sizin Kabul etmeniz gerekmektedir Güvenlik Prosedürleri için öyle yapılmıştır.")
+            
             eposta_input = WebDriverWait(driver, 20).until(
                 EC.visibility_of_element_located((By.ID, 'BasvuruVatandas_Eposta'))
             )
@@ -101,14 +104,6 @@ try:
 
             ileri = WebDriverWait(driver,20).until(EC.visibility_of_element_located((By.ID,'btnIleri')))
             ileri.click()
-
-            # Kullanıcı sözleşmesini kabul et
-            sozlesme_checkbox = WebDriverWait(driver, 20).until(
-                EC.visibility_of_element_located((By.ID, 'chkKullaniciSozlesmesi'))
-            )
-
-            # JavaScriptExecutor kullanarak checkbox'a tıklama
-            driver.execute_script("arguments[0].click();", sozlesme_checkbox)
 
             # Başvuruyu tamamla butonuna tıklama
             tamamla_button = WebDriverWait(driver, 20).until(
