@@ -1,4 +1,9 @@
 class web:
     link = "https://www.cimer.gov.tr/Hesap/EDevletGiris" #Elleme
-    tc = "Tc Kimlik Numarası" #Tc Kimlik Numaranı gir
-    sifre = "e-devlet Şifresi" #E devlet Şifreni Gir
+    tc = "" #Tc Kimlik Numaranı gir
+    sifre = "" #E devlet Şifreni Gir
+    mail = "" #Mailinizi Girin
+    basvuru_metin = """         """ #Başvuru metni
+    max_karakter = 5999
+    min_karakter = 1000
+    basvuru_karakter = len(basvuru_metin)

@@ -30,10 +30,16 @@ Projenin çalıştırılması için aşağıdaki adımları izleyin:
 1. `classes.py` dosyasını açın ve aşağıdaki bilgileri girin:
    - TC Kimlik Numaranız
    - E-devlet şifreniz
+   - Mail Adresiniz
+   - Başvuru Metni
+   - Max Karakter
+   - Min Karakter
 
 2. Programı başlattığınızda, otomatik olarak e-devlet hesabınıza giriş yapılacaktır.
 
-3. **Otomatik Şikayet** özelliği kullanıma sunulduğunda, bu özelliği kullanarak şikayetlerinizi hızlı bir şekilde oluşturabilirsiniz.
+3. **Otomatik Şikayet** Belirli bir Olayı Otomatik olarak Şikayet Edebilirsiniz.
+
+4. **Not**: E-devletinizde İki Aşamalı doğrulamayı(2FA) Aktif Etmeniz Gerekmektedir Yoksa **Kullanamazsınız**
 
 ## Geliştirme Planları
 
