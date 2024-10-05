@@ -7,3 +7,4 @@ class web:
     max_karakter = 5999 #Maksimumum Karakter
     min_karakter = 1000 #Minimum Karakter
     basvuru_karakter = len(basvuru_metin) #Başvuru metninin içerdiği Toplam Karakter Sayısı (boşluklar vesaire Dahil)
+    debug = False

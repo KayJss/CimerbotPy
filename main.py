@@ -10,8 +10,18 @@ import sys
 import classes
 
 try:
-    
-    
+    if(len(classes.web.tc) != 11 and classes.web.debug == False and classes.web.tc.isdigit() == True ):
+        messagebox.showerror("Hata","Yanlış bir Veri Girildi veya Geçersiz bir işlem Uygulandı")
+        sys.exit()
+    elif(len(classes.web.sifre) == 0 and classes.web.debug == False ):
+        messagebox.showerror("Hata","Sifre Kısmı Boş Bırakılamaz")
+        sys.exit()
+    elif(len(classes.web.mail) == 0 and classes.web.debug == False ):
+        messagebox.showerror("Hata","Mail Kısmı Boş Bırakılamaz Lütfen Classes.py Dosyasından Düzenleyiniz")
+        sys.exit()
+    elif(classes.web.basvuru_karakter == 0 and classes.web.debug == False ) :
+        messagebox.showerror("Hata","Başvuru Metni Boş Bırakılamaz Lütfen Classes.py Dosyasından Düzenleyiniz")
+        sys.exit()
     # Başvuru metninin uzunluğunu kontrol et
     if classes.web.min_karakter < classes.web.basvuru_karakter < classes.web.max_karakter:
         driver = webdriver.Chrome()
@@ -122,3 +132,4 @@ try:
         print(classes.web.basvuru_karakter)
 except Exception as e:
     print("Ana hata:", repr(e))
+    sys.exit()
