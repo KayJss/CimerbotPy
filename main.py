@@ -76,12 +76,6 @@ try:
 
             time.sleep(20)  # Sayfanın yüklenmesini bekleyin
 
-            # Başvuru tipi seçim
-            #rd_basvuru_tipi = WebDriverWait(driver, 20).until(
-               # EC.element_to_be_clickable((By.ID, 'rdBasvuruTipi1'))
-            #)
-            #rd_basvuru_tipi.click()  # Tıklama
-
 
             # E-posta bilgilerini gir
             eposta_input = WebDriverWait(driver, 20).until(
