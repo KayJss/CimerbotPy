@@ -1,63 +1,51 @@
+# CimerbotPy
 
+A Python automation experiment for interacting with the CİMER web flow through browser automation.
 
-## CimerbotPy V2.3 Gereksinimler
+> **Important:** This is an unofficial community project and is not affiliated with CİMER, e-Devlet or any Turkish government institution. Website changes may break the automation. Use it responsibly and comply with applicable service rules.
+
+## Requirements
 
 - Python 3.x
-- `requirements.txt` dosyasındaki gerekli kütüphanelerin yüklenmesi
-- `classes.py` dosyasına TC Kimlik Numaranızı ve e-devlet şifrenizi girmeniz gerekmektedir.
+- A supported browser/webdriver environment
+- Dependencies listed by the project
+- An account configured for the relevant official service
 
-## Kurulum
+## Installation
 
-Projenin çalıştırılması için aşağıdaki adımları izleyin:
+```bash
+git clone https://github.com/KayJss/CimerbotPy.git
+cd CimerbotPy
+python -m venv .venv
+```
 
-1. **Depoyu Klonlayın**:
-   ```bash
-   git clone https://github.com/KayJss/cimerbotpy.git
-   ```
-2. **Klonlanan Dizine Girin**:
-   ```bash
-   cd cimerbotpy
-   ```
-3. **Gerekli Kütüphaneleri Yükleyin**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Programı Çalıştırın**:
-   ```bash
-   python main.py
-   ```
+Activate the virtual environment, then install the project dependencies and run:
 
-## Kullanım
+```bash
+python main.py
+```
 
-1. `classes.py` dosyasını açın ve aşağıdaki bilgileri girin:
-   - TC Kimlik Numaranız
-   - E-devlet şifreniz
-   - Mail Adresiniz
-   - Başvuru Metni
-   - Max Karakter
-   - Min Karakter
+## Configuration
 
-2. Programı başlattığınızda, otomatik olarak e-devlet hesabınıza giriş yapılacaktır.
+The current version reads configuration from `classes.py`. Before running the project, review the configuration fields for the account, email, application text and character limits.
 
-3. **Otomatik Şikayet** Belirli bir Olayı Otomatik olarak Şikayet Edebilirsiniz.
+**Do not commit real credentials or personal identifiers.** A safer future version should load sensitive configuration from environment variables instead of source files.
 
-4. **Not**: E-devletinizde İki Aşamalı doğrulamayı(2FA) Aktif Etmeniz Gerekmektedir Yoksa **Kullanamazsınız**
+## Security
 
-## Geliştirme Planları
+- Never publish passwords, identity numbers or session information.
+- Use a dedicated local environment and keep credentials out of Git history.
+- Review [SECURITY.md](SECURITY.md) before reporting security issues.
+- Do not use automation for spam, harassment or mass submissions.
 
-- **Otomatik Şikayet Özelliği**: Kullanıcıların Cimer üzerinden otomatik şikayet oluşturabilmesi için gerekli geliştirmeler yapılacaktır.
-- **Hata Ayıklama ve İyileştirme**: Kullanıcı geri bildirimlerine dayalı olarak hataların giderilmesi ve uygulamanın iyileştirilmesi hedeflenmektedir.
+## Project status
 
-## Katkıda Bulunma
+This repository is an experimental browser-automation project. Planned improvements include safer configuration, clearer error handling, testable modules and reduced coupling between browser logic and user settings.
 
-Katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+## Contributing
 
-1. Depoyu fork edin.
-2. Yeni bir dal oluşturun (`git checkout -b feature/ÖzellikAdı`).
-3. Değişikliklerinizi ekleyin (`git commit -m 'Yeni özellik ekle'`).
-4. Dala gönderin (`git push origin feature/ÖzellikAdı`).
-5. Bir pull isteği oluşturun.
+Keep pull requests focused and never include real account credentials or personal data in examples, logs, screenshots or tests.
 
-## Lisans
+## License
 
-Bu proje GNU General Public License Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
+See [LICENSE](LICENSE).
